@@ -1,0 +1,140 @@
+/* INICIO configurações globais */
+
+html {
+    height: 100%;
+}
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #4d4d40;
+}
+
+/* FIM configurações globais */
+
+
+
+/* INICIO header */
+
+.logo {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    max-width: 150px;
+    padding: 5px;
+    border: none;
+
+}
+
+/* FIM header */
+
+
+
+/* INICIO navbar */
+
+.navbar a {
+    font-size: medium !important;
+}
+
+/* FIM navbar */
+
+
+
+.principal {
+    margin-top: 10px;
+}
+
+
+.titulo {
+    color: rgb(235, 235, 235);
+    text-shadow: 2px 2px black;
+}
+
+.texto {
+    color: rgb(206, 201, 201);
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    border-color: black;
+    border: solid;
+    border-radius: 10px;
+}
+
+/* INICIO destaque */
+
+.destaque {
+    background-color: #343a40;
+    margin-left: 0%;
+}
+
+.destaque .titulo {
+    text-align: justify;
+    padding: 10px 20px 0px 0px;
+}
+
+.destaque img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.destaque .texto {
+    text-align: justify;
+    padding: 0px 20px 10px 0px;
+}
+
+/* FIM destaque */
+
+
+
+/* INICIO novidades */
+
+.novidades {
+    background-color: #343a40;
+    margin-left: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.novidades .titulo {
+    padding: 15px 0 0 0;
+    height: 65px;
+}
+
+.novidades img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.novidades .texto {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+
+/* INICIO promocao */
+
+.promocao {
+    background-color: #343a40;
+    margin-left: 2px;
+    margin-right: 0%;
+    padding-left: 10px;
+}
+
+.promocao .titulo {
+    text-align: justify;
+    padding: 10px 0 0 0;
+}
