@@ -1,0 +1,261 @@
+.body {
+    background-color: rgb(240, 210, 41);
+}
+
+.header {
+    background-color: black;
+}
+
+.logo-section {
+    background-color: black;
+    padding: 10px;
+}
+
+.logo-section img {
+    width: 120px;
+}
+
+.menu-nav {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.nav-pills .nav-link:not(.active) {
+    background-color: rgb(54, 54, 54);
+    color: rgb(240, 210, 41);
+    border-radius: 0px;
+    font-weight: 400;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    background-color: rgb(87, 86, 86);
+    color: rgb(240, 210, 41);
+    border-radius: 0px;
+    font-weight: 400;
+}
+
+.active {
+    background-color: rgb(240, 210, 41) !important;
+    color: black !important;
+    border-radius: 0px !important;
+    font-weight: bolder !important;
+}
+
+.banner {
+    background-color: white;
+    border-top: solid white;
+    border-bottom: solid white;
+    padding: 0px;
+}
+
+.banner .carousel-caption {
+    background-color: rgb(0, 0, 0, 0.25);
+    padding: 0px;
+}
+
+.banner .carousel-label {
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    color: rgb(240, 210, 41);
+    font-size: 35px;
+    font-weight: 450;
+    font-variant: small-caps;
+}
+
+.banner .carousel-description {
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-noticias {
+    background-color: deepskyblue;
+}
+
+
+
+/* Main lateral INÍCIO */
+.main-lateral {
+    background-color: black;
+    color: white;
+}
+
+.promocao-title {
+    background-color: rgb(54, 54, 54);
+    color: rgb(240, 210, 41);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}
+
+.promocao-end {
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.promocao-banner {
+    background-color: black;
+    padding: 0px;
+}
+
+.promocao-banner .carousel-inner {
+    height: 400px !important;
+}
+
+.promocao-banner .card-img-top {
+    max-width: 300px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promocao-banner .card {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-top: 10px solid black;
+}
+
+.promocao-banner .card-title {
+    color: rgb(240, 210, 41);
+    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
+}
+
+.promocao-banner .card-text {
+    color: rgb(168, 152, 57);
+    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
+}
+
+.promocao-banner .card-stk-price {
+    color: rgb(153, 153, 153);
+}
+
+.promocao-banner .card-crt-price {
+    color: rgb(214, 214, 214);
+    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
+    font-size: 1.5em;
+}
+
+/* Main lateral FIM */
+
+
+
+/* Footer INÍCIO */
+
+.footer {
+    background-color: black;
+    color: rgb(240, 210, 41);
+    padding: 10px;
+}
+
+.footer div {
+    text-align: center;
+}
+
+/* Footer FIM */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .promocao-banner .carousel-inner {
+        height: 520px !important;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .logo-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+    }
+
+    .menu-nav {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .menu-nav nav {
+        display: inline-block;
+        width: 95%;
+    }
+
+    .promocao-banner .card-img-top {
+        max-width: 200px;
+        padding: 0px;
+        object-fit: cover;
+    }
+
+    .promocao-title,
+    .promocao-banner .card-body {
+        text-align: center;
+    }
+
+    .footer .span-2 {
+        display: block;
+    }
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+ 
+    .logo-section {
+        padding: 5px;
+    }
+
+    .logo-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+    }
+
+    .menu-nav {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .menu-nav nav {
+        display: inline-block;
+        width: 95%;
+    }
+
+    .promocao-banner .carousel-inner {
+        height: 100% !important;
+    }
+
+    .promocao-banner .card-img-top {
+        max-width: 40%;
+        min-width: 130px;
+        padding: 0px;
+        object-fit: cover;
+    }
+
+    .promocao-title,
+    .promocao-banner .card-body {
+        text-align: center;
+    }
+
+    .footer .span-1,
+    .footer .span-2 {
+        display: block;
+    }
+}
+
+
+
+
+

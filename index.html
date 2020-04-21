@@ -2,213 +2,285 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Required meta tags -->
+    <!--Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Font-awesome CSS -->
+    <!--Font-awesome CSS-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <!-- Local CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!--Local CSS-->
+    <link rel="stylesheet" href="custom.css">
 
-    <title>Trabalho Site Responsivo</title>
+    <title>Capitão Barley Pub</title>
 </head>
 
-<body>
 
-    <header class="container">
+<body class="container body">
 
-        <div class="logo">
-            <img src="imgs/capitao-barley.png">
-        </div>
+    <header class="row header">
+        <section class="col-12 col-md-2 logo-section">
+            <img src="imgs/capitao-barley.png" alt="logo">
+        </section> <!--logo-->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="navbar">
-            <a class="navbar-brand text-light" href="#">Capitão Barley</a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <section class="col-12 col-md-10 menu-nav">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link pill-1 active" href="#">Home</a>
+                <a class="flex-sm-fill text-sm-center nav-link pill-2" href="#">Eventos</a>
+                <a class="flex-sm-fill text-sm-center nav-link pill-3" href="#">Estrutura</a>
+                <a class="flex-sm-fill text-sm-center nav-link pill-4" href="#">Cardápio</a>
+                <a class="flex-sm-fill text-sm-center nav-link pill-5" href="#">Contato</a>
+            </nav> <!--nav nav-pills-->
+        </section> <!--menu-nav-->
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Eventos
-                        </a>
-                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-light" href="#">Eventos corporativos</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item text-light" href="#">Aniversários</a>
+        <section class="col-12 banner">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="12000">
+                        <img src="imgs/banner1.png" class="d-block w-100" alt="banner1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="carousel-label">Espaço</h5>
+                            <p class="carousel-description">Nosso pub oferece um ambiente bonito e aconchegante para seu divertimento.</p>
                         </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Cardápio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contato</a>
-                    </li>
-
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control-sm mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                    <button class="btn-sm btn-outline-white my-2 my-sm-0 bg-white" type="submit">Buscar</button>
-                </form>
+                    </div>
+                    <div class="carousel-item" data-interval="12000">
+                        <img src="imgs/banner2.png" class="d-block w-100" alt="banner2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="carousel-label">Cervejas Internacionais</h5>
+                            <p class="carousel-description">Oferecemos marcas e sabores de cervejas de vários países!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="12000">
+                        <img src="imgs/banner3.png" class="d-block w-100" alt="banner3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="carousel-label">Capitão Barley</h5>
+                            <p class="carousel-description">Venha conhecer nosso pub!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-        </nav>
-
+        </section> <!--col-12 banner-->
     </header>
 
 
-    <main class="container">
 
-        <section class="row banner">
-            <div class="col-12">
-                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imgs/banner1.png" class="d-block w-100" alt="">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5><strong>ESPAÇO</strong></h5>
-                                <p><em>Nosso pub tem um ambiente bonito e aconchegante</em></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imgs/banner2.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5><strong>CERVEJAS</strong></h5>
-                                <p><em>Oferecemos marcas e sabores de cervejas de vários países!</em></p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imgs/banner3.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5><strong>Capitão Barley</strong></h5>
-                                <p><em>Chame seus amigos e venham conhecer nosso pub!</em></p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
+    <main class="row main">
 
+        <!--main-noticias-->
+        <section class="col-xs-12 col-lg-8 main-noticias">
+            <div>main-noticias</div>
         </section>
-
-        <section class="row principal">
-            <div class="col-8 conteudo-principal">
-
-                <div class="row destaque border-dark rounded-lg">
-                    <div class="col-4">
-                        <img src="imgs/teste05.jpeg">
-                    </div> <!-- col-4 -->
-
-                    <div class="col-8">
-                        <section class="row">
-                            <h4 class="titulo"><strong>A melhor cervejaria da região!</strong></h4>
-                            <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt
-                                porttitor feugiat. Proin condimentum, nunc at mattis dictum, orci purus viverra urna, consequat
-                                interdum nisl justo egestas lacus. Vivamus eu ante at odio aliquet feugiat. Curabitur ac rutrum
-                                risus, at ullamcorper urna. Vestibulum ut auctor lectus.</p>
-                        </section>
-                    </div> <!-- col-8 -->
-                </div> <!-- row destaque -->
-
-                <br>
-
-                <div class="row novidades border-dark rounded-lg">
-                        <div class="col-6">
-                            <a href="#"><h5 class="titulo"><strong>Maecenas Eros Quam</strong></h5></a>
-                            <img src="imgs/teste01.jpeg" alt="">
-                            <p class="texto"><em>Donec quam ante, fringilla ac purus tempor, porttitor cursus orci. Etiam egestas
-                                    ipsum a pharetra congue. Quisque eget tincidunt dui. Phasellus condimentum tortor
-                                    quis neque aliquet varius. Aliquam erat volutpat.</em></p>
-                        </div> <!-- col-6 -->
-                        <div class="col-6">
-                            <a href="#"><h5 class="titulo"><strong>Vestibulum porttitor rutrum ultricies</strong></h5></a>
-                            <img src="imgs/teste02.jpeg" alt="">
-                            <p class="texto"><em>Proin pellentesque justo nec pulvinar auctor. Vivamus vitae est laoreet, tincidunt sapien nec,
-                                    varius magna. Proin consectetur eget augue id porttitor. </em></p>
-                            </div> <!-- col-6 -->
-
-                        <div class="col-6">
-                            <a href="#"><h5 class="titulo"><strong>Vestibulum porttitor rutrum ultricies</strong></h5></a>
-                            <img src="imgs/teste03.jpeg" alt="">
-                            <p class="texto"><em>Proin pellentesque justo nec pulvinar auctor. Vivamus vitae est laoreet, tincidunt sapien nec,
-                                    varius magna. Proin consectetur eget augue id porttitor. </em></p>
-                        </div> <!-- col-6 -->
-
-                        <div class="col-6">
-                            <a href="#"><h5 class="titulo"><strong>Vestibulum porttitor rutrum ultricies</strong></h5></a>
-                            <img src="imgs/teste04.jpeg" alt="">
-                            <p class="texto"><em>Proin pellentesque justo nec pulvinar auctor. Vivamus vitae est laoreet, tincidunt sapien nec,
-                                    varius magna. Proin consectetur eget augue id porttitor. </em></p>
-                        </div> <!-- col-6 -->
+        <!--/main-noticias-->
 
 
-                </div> <!-- row novidades border -->
-            </div>
 
 
-            <div class="col-4 conteudo-lateral">
+
+        <!--main-lateral-->
+        <aside class="col-xs-12 col-lg-4 main-lateral">
+            <!--Promocao-->
+            <div class="row">
+                <div class="col-12 promocao-title">
+                    Promoções
+                </div>
+
+
                 
-                <div class="row promocao border-dark rounded-lg">
-                    <h4 class="titulo"><strong>Promoção</strong></h4>
-                </div>
+                <div class="col-12 promocao-banner">
+                    <!--Carousel-->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <!--Carousel inner-->
+                        <div class="carousel-inner">
+                            <!--Carousel item 1-->
+                            <div class="carousel-item active" data-interval="12000">
 
+                                <!--Card group-->
+                                <div class="card-group">
+                                
+                                    <!--Card 1-->
+                                    <div class="card">
+                                
+                                        <!--Card image-->
+                                        <div class="view overlay">
+                                            <img class="card-img-top" src="imgs/cerv-brewdog-ab14.png" alt="Card image cap">
+                                            <a href="#!"> <div class="mask rgba-white-slight"></div> </a>
+                                        </div>
+                                
+                                        <!--Card content-->
+                                        <div class="card-body">
+                                
+                                            <!--Title-->
+                                            <h4 class="card-title">AB:14</h4>
+                                            <!--Text-->
+                                            <p class="card-text">Brewdog</p>
+                                            <p class="card-stk-price"><s>R$ 49.99</s></p>
+                                            <p class="card-crt-price">R$ 34.99</p>
+                                
+                                        </div>
+                                        <!--/Card content-->
+                                
+                                    </div>
+                                    <!--/Card 1-->
+
+                                    <!--Card 2-->
+                                    <div class="card">
+                                
+                                        <!--Card image-->
+                                        <div class="view overlay">
+                                            <img class="card-img-top" src="imgs/cerv-wals-petroleum.png" alt="Card image cap">
+                                            <a href="#!"> <div class="mask rgba-white-slight"></div> </a>
+                                        </div>
+                                
+                                        <!--Card content-->
+                                        <div class="card-body">
+                                            <!--Title-->
+                                            <h4 class="card-title">Petroleum</h4>
+                                            <!--Text-->
+                                            <p class="card-text">Wäls</p>
+                                            <p class="card-stk-price"><s>R$ 17.99</s></p>
+                                            <p class="card-crt-price">R$ 13.99</p>
+                                
+                                        </div>
+                                        <!--/Card content-->
+                                        
+                                
+                                    </div>
+                                    <!--/Card 2-->
+                                    
+                                
+                                </div>
+                                <!--/Card group-->
+                            </div>
+                            <!--/Carousel item 1-->
+
+                            <!--Carousel item 2-->
+                            <div class="carousel-item" data-interval="12000">
+
+                                <!--Card group-->
+                                <div class="card-group">
+                                
+                                    <!--Card 1-->
+                                    <div class="card">
+                                
+                                        <!--Card image-->
+                                        <div class="view overlay">
+                                            <img class="card-img-top" src="imgs/cerv-fullers-london-pride.png" alt="Card image cap">
+                                            <a href="#!"> <div class="mask rgba-white-slight"></div> </a>
+                                        </div>
+                                
+                                        <!--Card content-->
+                                        <div class="card-body">
+                                
+                                            <!--Title-->
+                                            <h4 class="card-title">London Pride</h4>
+                                            <!--Text-->
+                                            <p class="card-text">Fuller's</p>
+                                            <p class="card-stk-price"><s>R$ 24.99</s></p>
+                                            <p class="card-crt-price">R$ 19.99</p>
+                                
+                                        </div>
+                                        <!--/Card content-->
+                                
+                                    </div>
+                                    <!--/Card 1-->
+                                    
+                                
+                                    <!--Card 2-->
+                                    <div class="card">
+                                
+                                        <!--Card image-->
+                                        <div class="view overlay">
+                                            <img class="card-img-top" src="imgs/cerv-robinsons-family-brewers-trooper.png" alt="Card image cap">
+                                            <a href="#!"> <div class="mask rgba-white-slight"></div> </a>
+                                        </div>
+                                
+                                        <!--Card content-->
+                                        <div class="card-body">
+                                            <!--Title-->
+                                            <h4 class="card-title">Trooper</h4>
+                                            <!--Text-->
+                                            <p class="card-text">Robinsons Family</p>
+                                            <p class="card-stk-price"><s>R$ 19.99</s></p>
+                                            <p class="card-crt-price">R$ 14.99</p>
+                                
+                                        </div>
+                                        <!--/Card content-->
+                                        
+                                
+                                    </div>
+                                    <!--/Card 2-->
+                                    
+                                
+                                </div>
+                                <!--/Card group-->
+                            </div>
+                            <!--/Carousel item 2-->
+                        </div>
+                        <!--/Carousel inner-->
+                    </div>
+                    <!--/Carousel-->
+                </div>
+                
+
+                <div class="col-12 promocao-end"></div>
 
             </div>
-
-        </section>
-
-        <section class="row card_area">
-
-        </section>
-
-        <section class="row infos">
-
-        </section>
-
-    </main>
+            <!--/Promocao-->
 
 
-    <br>
 
-    <footer class="container footer">
-        <p>© Copyright 2020 Daniel T. Nunes. Todos os direitos reservados.</p>
-    </footer>
+
+            <div class="row lateral-row">
+                <div class="col-12">
+                    Item 2
+                </div>
+            </div>
 
 
 
 
 
+            <div class="row lateral-row">
+                <div class="col-12">
+                    Item 3
+                </div>
+            </div> 
+            
+            
+
+        </aside> <!--/main-lateral-->
+
+    </main> <!--row main-->
 
 
 
+    <footer class="row footer">
+        <div class="col-12">
+            <div>© Copyright 2020 Capitão Barley, <span class="span-1">Daniel T. Nunes. </span><span class="span-2">Todos os
+                    direitos reservados.</span></div>
+        </div>
+        
+    </footer> <!--row footer-->
 
 
-
-
-    <!-- Bootstrap JavaScript -->
+    <!--Bootstrap JavaScript-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
