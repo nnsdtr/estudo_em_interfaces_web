@@ -1,0 +1,739 @@
+/* GLOBAL INÍCIO*/
+.body {
+    background-color: rgb(240, 210, 41);
+}
+
+.card-title {
+    color: rgb(240, 210, 41);
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: -1px -1px black,
+                 -1px  1px black,
+                  1px -1px black,
+                  2px  2px black;
+}
+
+.card-body a:hover {
+    text-decoration-line: none;
+}
+
+.card-header,
+.card-footer {
+    background-color: rgb(54, 54, 54) !important;
+}
+
+.card-header {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.card-footer {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+
+
+/* GLOBAL FIM*/
+
+
+
+
+/* Header INÍCIO */
+.header {
+    background-color: black;
+}
+
+    /* Logo ÍNÍCIO */
+    .logo-section {
+        background-color: black;
+        padding: 10px;
+    }
+
+    .logo-section img {
+        width: 120px;
+    }
+
+    /* Logo FIM */
+
+
+    /* Menu de navegação INÍCIO */
+    .menu-nav {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .nav-pills .nav-link:not(.active) {
+        background-color: rgb(54, 54, 54);
+        color: rgb(240, 210, 41);
+        border-radius: 0px;
+        font-weight: 400;
+    }
+
+    .nav-pills .nav-link:not(.active):hover {
+        background-color: rgb(87, 86, 86);
+    }
+
+    .nav-pills .active {
+        background-color: rgb(240, 210, 41) !important;
+        color: black !important;
+        border-radius: 0px !important;
+        font-weight: bolder !important;
+    }
+
+    /* Menu de navegação FIM */
+
+
+    /* Banner INÍCIO */
+    .banner {
+        background-color: white;
+        border-top: solid rgb(161, 143, 36);
+        border-bottom: solid rgb(161, 143, 36);
+        padding: 0px;
+    }
+
+    .banner .carousel-caption {
+        background-color: rgb(0, 0, 0, 0.25);
+        padding: 0px;
+    }
+
+    .banner .carousel-label {
+        color: rgb(240, 210, 41);
+        font-size: 35px;
+        font-weight: 450;
+        font-variant: small-caps;
+        text-shadow: -2px -2px 0 #000,
+                      2px -2px 0 #000,
+                     -2px  2px 0 #000,
+                      2px  2px 0 #000;
+    }
+
+    .banner .carousel-description {
+        font-size: 20px;
+        font-weight: 400;
+        text-shadow: -2px -2px 0 #000,
+                      2px -2px 0 #000,
+                     -2px  2px 0 #000,
+                      2px  2px 0 #000;
+    }
+
+    /* Banner FIM */
+
+/* Header FIM */
+
+
+
+/* Main INÍCIO */
+.main {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    /* Main-block INÍCIO */
+    .main-block {
+        background-color: black;
+    }
+
+        /* Anúncio INÍCIO */
+        .anuncio {
+            margin-left: 2.5px;
+        }
+
+        .anuncio .card {
+            border: none;
+            margin: 0px;
+        }
+
+        .anuncio img {
+            width: 200px;
+            border-radius: 25px;
+        }
+
+        .anuncio .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+
+        .anuncio .img-square-wrapper {
+            background-color: black;
+        }
+
+        .anuncio .card-body {
+            background-color: black;
+            padding-top: 0px;
+        }
+
+        .anuncio .card-body h4:hover {
+            color: rgb(173, 155, 51);
+        }
+
+        .anuncio .card-text {
+            color: rgb(214, 214, 214);
+            padding-top: 10px;
+        }
+
+        /* Anúncio FIM */
+
+
+        /* Notícias INÍCIO */
+        .noticia {
+            margin-right: 2.5px;
+            margin-left: 2.5px;
+            border-radius: 0px;
+        }
+
+        .noticia .card {
+            background-color: black;
+            border: none;
+        }
+
+        .noticia .card-header p {
+            color: rgb(182, 182, 182);
+            margin-bottom: 0px;
+            text-shadow: -1px -1px black, 
+                         -1px  1px black,
+                          1px -1px black,
+                          2px  2px black;
+        }
+
+        .noticia .card-body {
+            background-color: black;
+        }
+
+        .noticia .card-text {
+            color: rgb(214, 214, 214);
+        }
+
+
+        .noticia .card-footer .btn {
+            background-color: rgb(240, 210, 41);
+            font-weight: 500;
+        }
+
+        .noticia .card-footer .btn:hover {
+            background-color: rgb(173, 155, 51);
+            color: white;
+            font-weight: 500;
+        }
+
+        /* Notícias FIM */
+
+
+        /* Álbum INÍCIO */
+        .album .wrapper {
+            background-color: black;
+            margin-bottom: 15px;
+        }
+
+        .album .card {
+            background-color: black;
+            border: none;
+        }
+
+        .album .card-body {
+            background-color: black;
+            padding-top: 10px;
+        }
+
+        .album .item {
+            border: 0.05cm solid rgb(156, 136, 23);
+        }
+
+        /* Álbum FIM */
+
+    /* Main-block FIM */
+
+
+    /* Aside-block INÍCIO */
+    .aside-block {
+        background-color: black;
+        color: white;
+    }
+
+        /* Promoção INÍCIO */
+        .promocao-wrapper {
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            margin-bottom: 25px;
+        }
+
+        .promocao-title {
+            background-color: rgb(54, 54, 54);
+            color: rgb(240, 210, 41);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 500;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border: none;
+            text-shadow: -1px -1px black,
+                         -1px  1px black,
+                          1px -1px black,
+                          2px  2px black;
+
+        }
+
+        .promocao-end {
+            background-color: rgb(54, 54, 54);
+            margin-bottom: 0px;
+            padding: 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .promocao-banner {
+            background-color: black;
+            padding: 0px;
+        }
+
+        .promocao-banner .carousel-inner {
+            height: 400px !important;
+        }
+
+        .promocao-banner .card-img-top {
+            max-width: 300px;
+            padding: 0px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .promocao-banner .card {
+            background-color: black;
+            padding: 0px;
+            margin: 0px;
+            border-radius: 0px;
+            border-top: 10px solid black;
+        }
+
+        .promocao-banner .card-body .card-title:hover {
+            color: white;
+        }
+
+        .promocao-banner .card-text {
+            color: rgb(168, 152, 57);
+            text-shadow: -1px -1px 0 #343a40,
+                          1px -1px 0 #343a40,
+                         -1px  1px 0 #343a40,
+                          1px  1px 0 #343a40;
+        }
+
+        .promocao-banner .card-stk-price {
+            color: rgb(153, 153, 153);
+        }
+
+        .promocao-banner .card-crt-price {
+            color: rgb(214, 214, 214);
+            font-size: 25px;
+            text-shadow: -1px -1px 0 #343a40,
+                          1px -1px 0 #343a40,
+                         -1px  1px 0 #343a40,
+                          1px  1px 0 #343a40;
+        }
+
+        /* Promoção FIM */
+
+
+        /* Cardápio INÍCIO */
+
+        .cardapio .card {
+            background-color: black;
+            padding-bottom: 10px;
+        }
+
+        .cardapio .card-footer {
+            margin-bottom: 15px;
+        }
+
+        .cardapio .carousel-indicators {
+            bottom: -40px;
+        }
+
+        .cardapio .img-square-wrapper img{
+            width: 100%;
+        }
+
+        .cardapio .card-body {
+            background-color: black;
+            padding: 0px;
+        }
+
+        .cardapio .col {
+            padding: 2.5px;
+        }
+
+        .cardapio .card-body .card-text {
+            color: rgb(214, 214, 214);
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+
+        /* Cardápio FIM */
+
+        /* Vídeos INÍCIO */
+
+        .videos .card {
+            background-color: black;
+        }
+
+        .videos .carousel-indicators {
+            bottom: -55px;
+        }
+
+
+        .videos .card-body {
+            background-color: black;
+            padding: 0px;
+            margin-top: 5px;
+            margin-bottom: 2.5px;
+        }
+
+        .videos .embed-responsive {
+            margin-top: 3px;
+            margin-bottom: 5px;
+        }
+    
+
+        .videos .card-footer {
+            height: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* Vídeos FIM */
+
+
+
+
+    /* Aside-block FIM */
+
+/* Main FIM */
+
+
+
+/* Menu inferior INÍCIO */
+.menu-inferior .wrapper{
+    background-color: rgb(54, 54, 54);
+    border-top: solid rgb(161, 143, 36);
+    border-bottom: solid rgb(161, 143, 36);
+}
+
+.menu-inferior .menu-title {
+    color: rgb(240, 210, 41);
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: -1px -1px black,
+                    -1px  1px black,
+                    1px -1px black,
+                    2px  2px black;
+}
+
+.menu-inferior .menu-text {
+    color: rgb(214, 214, 214);
+}
+
+.menu-inferior .quick-links .col {
+    padding-left: 0px;
+}
+
+.menu-inferior .quick-links a {
+    display: block;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.menu-inferior .quick-links a:hover {
+    display: block;
+    text-decoration: none;
+    color: rgb(240, 210, 41);
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.social-network .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    background-color: rgb(73, 73, 73);
+    margin-bottom: 50px;
+}
+    
+.social-network .fa:hover {
+    background-color: rgb(65, 65, 65);
+    color: rgb(240, 210, 41);
+}
+
+/* Menu inferior FIM */
+
+
+
+/* Footer INÍCIO */
+    .footer {
+        background-color: black;
+        color: rgb(161, 143, 36);
+        padding: 10px;
+    }
+
+    .footer div {
+        text-align: center;
+    }
+
+/* Footer FIM */
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES INÍCIO */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .promocao-banner .card-body .card-title {
+        font-size: 20px;
+    }
+
+    .promocao-banner .carousel-inner {
+        height: 350px !important;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Main block INÍCIO */
+    .main-block {
+
+    }
+
+    /* Main block FIM */
+
+
+    /* Aside block INÍCIO */
+    .promocao-banner .carousel-inner {
+        height: 520px !important;
+    }
+
+    /* Aside block FIM */
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* Header INÍCIO */
+    .logo-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+    }
+
+    .menu-nav {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .menu-nav nav {
+        display: inline-block;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    /* Header FIM */
+
+
+
+    /* Main block INÍCIO */
+    .album .card-title {
+        text-align: center;
+    }
+
+    .cardapio .card-title {
+        text-align: center;
+    }
+
+    .videos .card-title {
+        text-align: center;
+    }
+
+    /* Main block FIM */
+
+
+
+    /* Aside block INÍCIO */
+    .promocao-banner .card-img-top {
+        max-width: 200px;
+        padding: 0px;
+        object-fit: cover;
+    }
+
+    .promocao-title,
+    .promocao-banner .card-body {
+        text-align: center;
+    }
+
+    /* Aside block FIM */
+
+
+
+    /* Footer INÍCIO */
+    .footer .span-2 {
+        display: block;
+    }
+
+    /* Footer FIM */
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+ 
+    /* Header INÍCIO */
+    .logo-section {
+        padding: 5px;
+    }
+
+    .logo-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+    }
+
+    .menu-nav {
+        margin-top: auto;
+        text-align: center;
+    }
+
+    .menu-nav nav {
+        display: inline-block;
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    /* Header FIM */
+
+
+    /* Main block INÍCIO */
+    .main-block {
+
+    }
+
+        /* Anúncio INÍCIO */
+        .anuncio {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .anuncio .card-horizontal {
+            display: block;
+        }
+
+        .anuncio img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            max-width: 85%;
+        }
+
+        .anuncio .card-body {
+            padding-top: 10px;
+        }
+
+        .anuncio .card-title,
+        .anuncio .card-text {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+        /* Anúncio INÍCIO */
+
+        /* Álbum INÍCIO */
+        .album .card-title {
+            text-align: center;
+        }
+
+        /* Álbum FIM */
+
+    /* Main block FIM */
+
+
+
+    /* Aside block INÍCIO */
+        /* Promoção INÍCIO */
+        .promocao-banner .carousel-inner {
+            height: 100% !important;
+        }
+
+        .promocao-banner .card-img-top {
+            max-width: 40%;
+            min-width: 130px;
+            padding: 0px;
+            object-fit: cover;
+        }
+
+        .promocao-title,
+        .promocao-banner .card-body {
+            text-align: center;
+        }
+        /* Promoção FIM */
+
+        /* Cardápio INÍCIO */
+        .cardapio {
+            display: none;
+        }
+
+        /* Cardápio FIM */
+
+        /* Vídeos INÍCIO */    
+        .videos .card-title {
+            text-align: center;
+        }
+
+        /* Vídeos FIM */ 
+
+    /* Aside block FIM */
+
+    
+    /* Menu inferior INÍCIO */
+    .social-network .fa {
+        padding: 20px;
+        font-size: 22px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+    /* Menu inferior FIM */
+
+
+    /* Footer INÍCIO */
+    .footer .span-1,
+    .footer .span-2 {
+        display: block;
+    }
+
+    /* Footer FIMs */
+}
+
+/* MEDIA QUERIES FIM */
+
+
+
+
+
+
