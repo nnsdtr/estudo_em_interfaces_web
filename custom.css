@@ -1,179 +1,342 @@
+/* GLOBAL INÍCIO*/
 .body {
     background-color: rgb(240, 210, 41);
 }
 
+.card-title {
+    color: rgb(240, 210, 41);
+    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
+}
+
+.card-body a:hover {
+    text-decoration-line: none;
+}
+
+/* GLOBAL FIM*/
+
+
+
+
+/* Header INÍCIO */
 .header {
     background-color: black;
 }
 
-.logo-section {
-    background-color: black;
-    padding: 10px;
-}
+    /* Logo ÍNÍCIO */
+    .logo-section {
+        background-color: black;
+        padding: 10px;
+    }
 
-.logo-section img {
-    width: 120px;
-}
+    .logo-section img {
+        width: 120px;
+    }
 
-.menu-nav {
-    margin-top: 60px;
-    margin-bottom: 10px;
-}
+    /* Logo FIM */
 
-.nav-pills .nav-link:not(.active) {
-    background-color: rgb(54, 54, 54);
-    color: rgb(240, 210, 41);
-    border-radius: 0px;
-    font-weight: 400;
-}
 
-.nav-pills .nav-link:not(.active):hover {
-    background-color: rgb(87, 86, 86);
-    color: rgb(240, 210, 41);
-    border-radius: 0px;
-    font-weight: 400;
-}
+    /* Menu de navegação INÍCIO */
+    .menu-nav {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
 
-.active {
-    background-color: rgb(240, 210, 41) !important;
-    color: black !important;
-    border-radius: 0px !important;
-    font-weight: bolder !important;
-}
+    .nav-pills .nav-link:not(.active) {
+        background-color: rgb(54, 54, 54);
+        color: rgb(240, 210, 41);
+        border-radius: 0px;
+        font-weight: 400;
+    }
 
-.banner {
-    background-color: white;
-    border-top: solid white;
-    border-bottom: solid white;
-    padding: 0px;
-}
+    .nav-pills .nav-link:not(.active):hover {
+        background-color: rgb(87, 86, 86);
+    }
 
-.banner .carousel-caption {
-    background-color: rgb(0, 0, 0, 0.25);
-    padding: 0px;
-}
+    .nav-pills .active {
+        background-color: rgb(240, 210, 41) !important;
+        color: black !important;
+        border-radius: 0px !important;
+        font-weight: bolder !important;
+    }
 
-.banner .carousel-label {
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    color: rgb(240, 210, 41);
-    font-size: 35px;
-    font-weight: 450;
-    font-variant: small-caps;
-}
+    /* Menu de navegação FIM */
 
-.banner .carousel-description {
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    font-size: 20px;
-    font-weight: 400;
-}
 
+    /* Banner INÍCIO */
+    .banner {
+        background-color: white;
+        border-top: solid rgb(240, 210, 41);
+        border-bottom: solid rgb(240, 210, 41);
+        padding: 0px;
+    }
+
+    .banner .carousel-caption {
+        background-color: rgb(0, 0, 0, 0.25);
+        padding: 0px;
+    }
+
+    .banner .carousel-label {
+        color: rgb(240, 210, 41);
+        font-size: 35px;
+        font-weight: 450;
+        font-variant: small-caps;
+        text-shadow: -2px -2px 0 #000,
+                      2px -2px 0 #000,
+                     -2px  2px 0 #000,
+                      2px  2px 0 #000;
+    }
+
+    .banner .carousel-description {
+        font-size: 20px;
+        font-weight: 400;
+        text-shadow: -2px -2px 0 #000,
+                      2px -2px 0 #000,
+                     -2px  2px 0 #000,
+                      2px  2px 0 #000;
+    }
+
+    /* Banner FIM */
+
+/* Header FIM */
+
+
+
+/* Main INÍCIO */
 .main {
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.main-noticias {
-    background-color: deepskyblue;
-}
+    /* Main-block INÍCIO */
+    .main-block {
+        background-color: black;
+    }
+
+        /* Anúncio INÍCIO */
+        .anuncio {
+            margin-left: 2.5px;
+        }
+
+        .anuncio .card {
+            border: none;
+            margin: 0px;
+        }
+
+        .anuncio img {
+            width: 200px;
+        }
+
+        .anuncio .card-horizontal {
+            display: flex;
+            flex: 1 1 auto;
+        }
+
+        .anuncio .img-square-wrapper {
+            background-color: black;
+        }
+
+        .anuncio .card-body {
+            background-color: black;
+            padding-top: 0px;
+        }
+
+        .anuncio .card-text {
+            color: rgb(214, 214, 214);
+            text-align: justify;
+            padding-top: 10px;
+        }
+
+        /* Anúncio FIM */
 
 
+        /* Notícias INÍCIO */
+        .noticia {
+            margin-right: 2.5px;
+            margin-left: 2.5px;
+            border-radius: 0px;
+        }
 
-/* Main lateral INÍCIO */
-.main-lateral {
-    background-color: black;
-    color: white;
-}
+        .noticia .card {
+            border: none;
+        }
 
-.promocao-title {
-    background-color: rgb(54, 54, 54);
-    color: rgb(240, 210, 41);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-weight: 400;
-    border: none;
-}
+        .noticia .card-header {
+            background-color: rgb(54, 54, 54);
+        }
 
-.promocao-end {
-    background-color: rgb(54, 54, 54);
-    margin-bottom: 0px;
-    padding: 20px;
-}
+        .noticia .card-title {
+            color: rgb(240, 210, 41);
+            margin-bottom: 5px;
+            font-size: 25px;
+            font-weight: 500;
+            text-shadow: -1px -1px black,
+                         -1px  1px black,
+                          1px -1px black,
+                          2px  2px black;
+        }
 
-.promocao-banner {
-    background-color: black;
-    padding: 0px;
-}
+        .noticia .card-header p {
+            color: rgb(182, 182, 182);
+            margin-bottom: 0px;
+            text-shadow: -1px -1px black, 
+                         -1px  1px black,
+                          1px -1px black,
+                          2px  2px black;
+        }
 
-.promocao-banner .carousel-inner {
-    height: 400px !important;
-}
+        .noticia .card-body {
+            background-color: black;
+        }
 
-.promocao-banner .card-img-top {
-    max-width: 300px;
-    padding: 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+        .noticia .card-text {
+            color: rgb(214, 214, 214);
+        }
 
-.promocao-banner .card {
-    background-color: black;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    border-top: 10px solid black;
-}
+        .noticia .card-footer {
+            background-color: rgb(54, 54, 54);
+        }
 
-.promocao-banner .card-title {
-    color: rgb(240, 210, 41);
-    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
-}
+        .noticia .card-footer .btn {
+            background-color: rgb(240, 210, 41);
+            font-weight: 500;
+        }
 
-.promocao-banner .card-text {
-    color: rgb(168, 152, 57);
-    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
-}
 
-.promocao-banner .card-stk-price {
-    color: rgb(153, 153, 153);
-}
+        /* Notícias FIM */
 
-.promocao-banner .card-crt-price {
-    color: rgb(214, 214, 214);
-    text-shadow: -1px -1px 0 #343a40, 1px -1px 0 #343a40, -1px 1px 0 #343a40, 1px 1px 0 #343a40;
-    font-size: 1.5em;
-}
+    /* Main-block FIM */
 
-/* Main lateral FIM */
+
+    /* Aside-block INÍCIO */
+    .aside-block {
+        background-color: black;
+        color: white;
+    }
+
+        /* Promoção INÍCIO */
+        .promocao-title {
+            background-color: rgb(54, 54, 54);
+            color: rgb(240, 210, 41);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 25px;
+            font-weight: 500;
+            border: none;
+            text-shadow: -1px -1px black,
+                         -1px  1px black,
+                          1px -1px black,
+                          2px  2px black;
+
+        }
+
+        .promocao-end {
+            background-color: rgb(54, 54, 54);
+            margin-bottom: 0px;
+            padding: 20px;
+        }
+
+        .promocao-banner {
+            background-color: black;
+            padding: 0px;
+        }
+
+        .promocao-banner .carousel-inner {
+            height: 400px !important;
+        }
+
+        .promocao-banner .card-img-top {
+            max-width: 300px;
+            padding: 0px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .promocao-banner .card {
+            background-color: black;
+            padding: 0px;
+            margin: 0px;
+            border-radius: 0px;
+            border-top: 10px solid black;
+        }
+
+        .promocao-banner .card-text {
+            color: rgb(168, 152, 57);
+            text-shadow: -1px -1px 0 #343a40,
+                          1px -1px 0 #343a40,
+                         -1px  1px 0 #343a40,
+                          1px  1px 0 #343a40;
+        }
+
+        .promocao-banner .card-stk-price {
+            color: rgb(153, 153, 153);
+        }
+
+        .promocao-banner .card-crt-price {
+            color: rgb(214, 214, 214);
+            font-size: 1.5em;
+            text-shadow: -1px -1px 0 #343a40,
+                          1px -1px 0 #343a40,
+                         -1px  1px 0 #343a40,
+                          1px  1px 0 #343a40;
+        }
+
+        /* Promoção FIM */
+
+    /* Aside-block FIM */
+
+/* Main FIM */
+
+
 
 
 
 /* Footer INÍCIO */
+    .footer {
+        background-color: black;
+        color: rgb(240, 210, 41);
+        padding: 10px;
+    }
 
-.footer {
-    background-color: black;
-    color: rgb(240, 210, 41);
-    padding: 10px;
-}
-
-.footer div {
-    text-align: center;
-}
+    .footer div {
+        text-align: center;
+    }
 
 /* Footer FIM */
 
 
+
+
+
+
+
+
+/* MEDIA QUERIES INÍCIO */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Main block INÍCIO */
+    .main-block {
+
+    }
+
+    /* Main block FIM */
+
+
+    /* Aside block INÍCIO */
     .promocao-banner .carousel-inner {
         height: 520px !important;
     }
 
+    /* Aside block FIM */
 }
+
+
+
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 
+    /* Header INÍCIO */
     .logo-section img {
         display: block;
         margin-left: auto;
@@ -189,8 +352,23 @@
     .menu-nav nav {
         display: inline-block;
         width: 95%;
+        margin-bottom: 10px;
     }
 
+    /* Header FIM */
+
+
+
+    /* Main block INÍCIO */
+    .main-block {
+
+    }
+
+    /* Main block FIM */
+
+
+
+    /* Aside block INÍCIO */
     .promocao-banner .card-img-top {
         max-width: 200px;
         padding: 0px;
@@ -202,16 +380,24 @@
         text-align: center;
     }
 
+    /* Aside block FIM */
+
+
+
+    /* Footer INÍCIO */
     .footer .span-2 {
         display: block;
     }
 
+    /* Footer FIM */
 }
+
 
 
 
 @media screen and (max-width: 575px) {
  
+    /* Header INÍCIO */
     .logo-section {
         padding: 5px;
     }
@@ -231,29 +417,85 @@
     .menu-nav nav {
         display: inline-block;
         width: 95%;
+        margin-bottom: 10px;
     }
 
-    .promocao-banner .carousel-inner {
-        height: 100% !important;
+    /* Header FIM */
+
+
+    /* Main block INÍCIO */
+    .main-block {
+
     }
 
-    .promocao-banner .card-img-top {
-        max-width: 40%;
-        min-width: 130px;
-        padding: 0px;
-        object-fit: cover;
-    }
+        /* Anúncio INÍCIO */
+        .anuncio {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
 
-    .promocao-title,
-    .promocao-banner .card-body {
-        text-align: center;
-    }
+        .anuncio .card-horizontal {
+            display: block;
+        }
 
+        .anuncio img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            max-width: 85%;
+        }
+
+        .anuncio .card-body {
+            padding-top: 10px;
+        }
+
+        .anuncio .card-title,
+        .anuncio .card-text {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+        /* Anúncio INÍCIO */
+
+    /* Main block FIM */
+
+
+
+    /* Aside block INÍCIO */
+        /* Promoção INÍCIO */
+        .promocao-banner .carousel-inner {
+            height: 100% !important;
+        }
+
+        .promocao-banner .card-img-top {
+            max-width: 40%;
+            min-width: 130px;
+            padding: 0px;
+            object-fit: cover;
+        }
+
+        .promocao-title,
+        .promocao-banner .card-body {
+            text-align: center;
+        }
+        /* Promoção FIM */
+
+    /* Aside block FIM */
+
+
+
+    /* Footer INÍCIO */
     .footer .span-1,
     .footer .span-2 {
         display: block;
     }
+
+    /* Footer FIMs */
 }
+
+/* MEDIA QUERIES FIM */
+
 
 
 
